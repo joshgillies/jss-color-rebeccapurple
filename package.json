@@ -1,0 +1,36 @@
+{
+  "name": "jss-color-rebeccapurple",
+  "version": "1.0.0",
+  "description": "JSS plugin that transforms the W3C CSS rebeccapurple color to rgb.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshgillies/jss-color-rebeccapurple.git"
+  },
+  "keywords": [
+    "jss",
+    "css",
+    "color",
+    "colour",
+    "meyer",
+    "rebeccapurple",
+    "rgb"
+  ],
+  "author": "Josh Gillies <npm@joshgilli.es> (http://joshgilli.es/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshgillies/jss-color-rebeccapurple/issues"
+  },
+  "homepage": "https://github.com/joshgillies/jss-color-rebeccapurple#readme",
+  "dependencies": {
+    "rebeccapurple": "^1.0.0"
+  },
+  "devDependencies": {
+    "jss": "^3.2.0",
+    "standard": "^5.4.1",
+    "tape": "^4.2.2"
+  }
+}
