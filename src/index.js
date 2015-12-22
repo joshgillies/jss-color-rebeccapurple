@@ -1,7 +1,7 @@
-var rebeccapurple = require('rebeccapurple')
+import rebeccapurple from 'rebeccapurple'
 
-module.exports = function jssRebeccapurple () {
-  return function plugin (rule) {
+export default function jssRebeccapurple () {
+  return rule => {
     if (rule.type !== 'regular') return
 
     for (var prop in rule.style) {

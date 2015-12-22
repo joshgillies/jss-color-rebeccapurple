@@ -1,8 +1,8 @@
-var test = require('tape')
-var rebeccapurple = require('./')
+import test from 'tape'
+import rebeccapurple from './src'
+import jss from 'jss'
 
-test('jss plugin', function (assert) {
-  var jss = require('jss')
+test('jss plugin', assert => {
   jss.use(rebeccapurple())
   assert.equals(jss.createStyleSheet({
     'test': {
