@@ -1,6 +1,6 @@
 {
   "name": "jss-color-rebeccapurple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSS plugin to transform the W3C CSS rebeccapurple color to rgb.",
   "main": "lib/index.js",
   "scripts": {
