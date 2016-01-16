@@ -5,9 +5,14 @@ export default function jssRebeccapurple () {
     if (rule.type !== 'regular') return
 
     for (let prop in rule.style) {
-      if (rule.style[prop].indexOf('rebeccapurple') !== -1) {
-        rule.style[prop] = rebeccapurple(rule.style[prop])
+      let value = rule.style[prop]
+      if (isString(value) && value.indexOf('rebeccapurple') !== -1) {
+        rule.style[prop] = rebeccapurple(value)
       }
     }
   }
+}
+
+function isString (test) {
+  return typeof test === 'string'
 }
